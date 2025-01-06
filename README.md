@@ -1,30 +1,26 @@
-Sinhala Spell and Grammar Checker (LSTM, RAG, and Rule-based Models)
-This repository contains the implementation of a Sinhala Spell and Grammar Checker using three different models: Rule-based Model, RAG Model, and LSTM Model. The project aims to automatically detect and correct spelling and grammar errors in Sinhala text, leveraging machine learning and traditional methods to enhance the quality and accuracy of written Sinhala.
+Sinhala Spell and Grammar Checker
+This project aims to develop an effective Spell and Grammar Checker for Sinhala, one of the official languages of Sri Lanka. Given the complex script and intricate grammatical structure of Sinhala, detecting and correcting errors in digital text is a significant challenge. This tool is designed to assist in identifying spelling mistakes and providing grammar suggestions in Sinhala, with applications in social media, text messaging, and online communication.
 
-Models:
-Rule-based Model:
+Key Features:
+Rule-Based Model: Utilizes predefined linguistic rules to detect common errors like incorrect word endings or missing letters.
+RAG (Retrieval-Augmented Generation) Model: Combines information retrieval and text generation to suggest corrections for a variety of spelling and grammar errors.
+LSTM Model: A deep learning approach using Long Short-Term Memory networks to learn the patterns of Sinhala text errors and generate appropriate corrections.
+BERT Model: Leverages the power of BERT (Bidirectional Encoder Representations from Transformers), fine-tuned on Sinhala text, to provide context-aware suggestions for spelling and grammar mistakes.
 
-A simple rule-based approach to detect common spelling errors by checking words against a predefined dictionary. This model provides basic correction capabilities based on exact matches and string similarity techniques.
-RAG Model:
-A hybrid model combining retrieval-augmented generation (RAG) with a large dataset of Sinhala text. This model uses advanced methods to retrieve contextually relevant data and generate grammar suggestions or corrections.
-LSTM Model:
-
-A Long Short-Term Memory (LSTM):
-
-based deep learning model that learns long-term dependencies in text sequences for both spell correction and grammar improvement. This model is trained on a labeled dataset of Sinhala sentences and provides high accuracy in both spelling and grammar correction tasks.
-
-Features:
-Spell Correction: Detects misspelled words and suggests the closest possible correct alternatives.
-Grammar Suggestions: Identifies grammatical errors such as subject-verb agreement issues and sentence structure errors and provides suggestions for improvement.
-Multi-model Comparison: Compare the effectiveness of the Rule-based, RAG, and LSTM models for spelling and grammar correction tasks in Sinhala text.
+Objectives:
+Improve the quality of written Sinhala in digital spaces.
+Develop a system that can detect and correct common spelling and grammar mistakes.
+Contribute to the development of digital tools for better communication and education in Sinhala.
 
 Technologies Used:
-Python: The main programming language used to implement the models.
-TensorFlow/Keras: For building and training the LSTM-based deep learning model.
-Scikit-learn: For data preprocessing and evaluation.
-Difflib: For spell correction using string matching.
-Word Documents: For loading Sinhala dictionary data for spell correction.
+    Python
+    Hugging Face Transformers (BERT, RAG)
+    PyTorch
+    LSTM (Long Short-Term Memory) Networks
+    Rule-Based Approaches
 
-Evaluation Metrics:
-Accuracy: The LSTM model achieved an accuracy of 96% in classifying and correcting spelling and grammar errors.
-Precision, Recall, F1-Score: The model also shows impressive precision and recall rates, ensuring reliable corrections for both spelling and grammar.
+Results:
+The models are evaluated for their performance across different types of errors in Sinhala, and their accuracy is measured. The analysis will help identify the most effective approach for building an accurate Sinhala spell and grammar checker.
+
+Contributions:
+Feel free to contribute by suggesting improvements, reporting bugs, or adding new features. Open issues or pull requests are welcome.
